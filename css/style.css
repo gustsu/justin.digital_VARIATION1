@@ -90,6 +90,9 @@ main .content .link i {
 }
 
 @media screen and (min-width: 800px) {
+  main, body {
+    overflow: hidden;
+  }
   #particles-js {
     display: block;
     min-height: 100vh;
@@ -106,7 +109,7 @@ main .content .link i {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    top: 25%;
+    top: 30vh;
   }
   main .content img {
     float: left;
